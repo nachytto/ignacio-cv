@@ -7,38 +7,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/a73c4b30aa.js" crossorigin="anonymous"></script>
+  </head>
 
 <body> 
     <header class="header">
         <!-- navbar bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">Ignacio.D</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" aria-current="page" href="#">home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      datos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">antecedentes</a></li>
+                      <li><a class="dropdown-item" href="#">portafolio</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">contactos</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
               </div>
@@ -56,6 +51,7 @@
         <!--presentacion -->
         <section class="descripcion">
             <div class="presentacion">
+                <h5>Ignacio Duarte Miranda</h5>
                 <p> Estudiante de Ingeniería Civil
                     Informática en la Universidad
                     Andrés Bello, con un sólido
@@ -80,37 +76,42 @@
         <!---section hab, exp, antecedentes academicos-->
         <section class="categorias">
             <!--div habilidades-->
-            <div class="datos">
-                <h4>habilidades tecnicas</h4>
-                <ul>
-                    <li>Python</li>
-                    <li>c</li>
-                    <li>c++</li>
-                    <li>sql</li>
-                </ul>  
-            </div>
-                 
-            <!--antecedentes-->
-            <div class="datos">
-                <h4>Antecedentes academicos</h4>
-                <ul>
-                    <li>2011 - 2021:Colegio Alta Cumbre. Curico (2º basico a 4º medio)</li>
-                    <li>2022-Presente: estudiante ingenieria civil informatica, Universidad Andres Bello. Santiago</li>
-                </ul>
-            </div>
-            <!--experiencia-->
-            <div class="datos">
-                <h4>experiencia</h4>
-                <ul>
-                    <li>revestimientos industriales spa</li>
-                </ul>
+              <div class="habilidades">
+                <div class="datos">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h4>habilidades tecnicas</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>c</li>
+                        <li>c++</li>
+                        <li>sql</li>
+                    </ul>  
+                </div>
+                    
+                <!--antecedentes-->
+                <div class="datos">
+                    <i class="fa-solid fa-school"></i>
+                    <h4>Antecedentes academicos</h4>
+                    <ul>
+                        <li>2011 - 2021:Colegio Alta Cumbre. Curico (2º basico a 4º medio)</li>
+                        <li>2022-Presente: estudiante ingenieria civil informatica, Universidad Andres Bello. Santiago</li>
+                    </ul>
+                </div>
+                <!--experiencia-->
+                <div class="datos">
+                    <i class="fa-solid fa-clock"></i>
+                    <h4>experiencia</h4>
+                    <ul>
+                        <li>revestimientos industriales spa</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
 
         <!--portafolio-->
         <section class="portafolio">
-          <div class="titulo_portafolio"><h5>portafolio</h5></div>
+          <h5>Portafolio</h5>
           <div class="container py-1">
             <div class="row row-cols-1 row-cols-md-3 g-4 py-5 " >
               <div class="col">
@@ -151,7 +152,16 @@
                   <div class="card-body text-start">
                     <h5 class="card-title ">Desafio 5</h5>
                   </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                  <img src="assets/css/img/examen.png" class="card-img-top" alt="...">
+                  <div class="card-body text-start">
+                    <h5 class="card-title ">examen del curso</h5>
+                  </div>
               </div>
+              
 
             </div>
           </div>
@@ -159,31 +169,66 @@
     </main>
 
     <!--footer contactos y demas-->
-    <footer>
-        <section class="contactos">
+    <section>
+        <div class="contactos">
           <h2>Contactos</h2>
           <div class="iconos">
             <div class="icono">
-              <p>telefono:956939085</p>
+              <i class="fa-solid fa-phone fa-3x my-3"></i>
+              <p>9 56939085</p>
             </div>
             <div class="icono">
-              <p>correo:nacho.duartemiranda@gmail.com</p>
+              <i class="fa-solid fa-envelope fa-3x my-3"></i>
+              <p>nacho.duartemiranda@gmail.com</p>
             </div>
             <div class="icono">
-              <p>direccion:Ojos del Salado # 537
-                Villa Cordillera,
+              <i class="fa-solid fa-location-dot fa-3x my-3"></i>
+              <p>Ojos del Salado # 537 <br>
+                Villa Cordillera,<br>
                 Talagante.</p>
             </div>
           </div>
 
 
 
-        </section>
-        <div>
-            <a href="https://www.linkedin.com/in/ignacio-duarte-020052294/" >linkedin</a>
-
         </div>
+    </section>
+    <section id="Contacto" class="container my-5">
 
-    </footer>
+      <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+      <form>
+
+
+          <div class="form-group mb-4">
+              <label class="mb-2">Nombre</label>
+              <input class="form-control" placeholder="Nombre">
+          </div>
+
+          <div class="form-group mb-4">
+              <label class="mb-2">Correo electrónico</label>
+              <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+
+          <div class="form-group">
+              <label class="mb-2">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+
+          <div class="my-3 text-end">
+              <button class="btn btn-info text-light">Enviar</button>
+          </div>
+
+
+
+      </form>
+
+  </section>
+
+
+
+  <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">Ignacio Duarte 2024. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
